@@ -3,6 +3,11 @@
   padding-bottom: 70px;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(https://e0.pxfuel.com/wallpapers/520/145/desktop-wallpaper-premium-vector-of-blue-roses-themed-card-template-vector-843717-flower-background-blue-roses-flower-background-blue-wedding.jpg);
+}
+
 .container {
   padding-left: 2px
 }
@@ -57,3 +62,36 @@
 
 }
 
+
+.bg-img textarea {
+  background: transparent;
+  border: none;
+
+}
+
+.compose input {
+  background: transparent;
+  border: none;
+
+}
+
+.compose input::placeholder {
+  color: #faf6fa;
+}
+
+.compose input {
+  color: #faf6fa;
+  font-size:x-large;
+  font-weight: bold;
+}
+
+.bg-img textarea::placeholder {
+  color: #faf6fa;
+}
+
+.bg-img textarea {
+  color: #faf6fa;
+  font-size:x-large;
+  font-weight: bold;
+  cursor: ('<i class="fa-solid fa-pen-nib"></i>');
+}
